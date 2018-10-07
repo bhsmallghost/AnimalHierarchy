@@ -12,7 +12,7 @@ public class Duck extends Bird implements Sound{
     public Duck() {
         say(fileName);
         walk();
-        sing();
+        sing(true);
         swim(true);
     }
 }

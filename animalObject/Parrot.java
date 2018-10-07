@@ -31,7 +31,7 @@ public class Parrot extends Bird implements Sound {
     public Parrot(){
         say(stayWith);
         walk();
-        sing();
+        sing(true);
         fly(true);
     }
 }

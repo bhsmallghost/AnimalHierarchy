@@ -12,7 +12,7 @@ public class Chicken extends Bird implements Sound{
     public Chicken() {
         say(fileName);
         walk();
-        sing();
+        sing(true);
         fly(false);
     }
 }

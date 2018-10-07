@@ -13,7 +13,7 @@ public class Rooster extends Bird implements Sound {
         Parrot.stayWith = fileName;
         say(fileName);
         walk();
-        sing();
+        sing(true);
         fly(false);
     }
 }
