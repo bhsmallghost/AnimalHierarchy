@@ -23,3 +23,8 @@ DQ1 - Butterfly inherits directly from Bird to reduce overhead
 
 DQ2 - Introduce different "stage" in Butterfly to cater for metamorphosis
 - Caterpillar is a standalone class which has the function to alter the stage of Butterfly
+
+
+EQ1 - There is no frog (suppose that's for the "missing" section "C")
+- Bird is categorized as Class, so it will not be counted
+- Introduce an super class AnimalAbilityCount on top of main ability classes - Animal and Bird, to do the counting

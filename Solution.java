@@ -63,7 +63,7 @@ public class Solution {
         //DQ1
         //Butterfly butterfly = new Butterfly();
         
-        //DQ2
+        /*DQ2
         System.out.println("Caterpillar....");
         Caterpillar caterpillar = new Caterpillar();
         System.out.println("");
@@ -74,6 +74,30 @@ public class Solution {
         
         System.out.println("Butterfly....");
         Butterfly butterfly = new Butterfly();
+        System.out.println("");*/
+        
+        //EQ1
+        AnimalAbilityCount AAC = new AnimalAbilityCount();
+        Animal[] animals = new Animal[]{
+            new Bird(),
+            new Duck(),
+            new Chicken(),
+            new Rooster(),
+            new Parrot(),
+            new Fish(),
+            new Shark(),
+            new ClownFish(),
+            new Dolphins(),
+            new Dog(),
+            new Butterfly(),
+            new Cat()
+        };
+        
         System.out.println("");
+        System.out.println("Result......");
+        System.out.println("canfly  = "+AAC.canfly);
+        System.out.println("canwalk = "+AAC.canwalk);
+        System.out.println("cansing = "+AAC.cansing);
+        System.out.println("canswim = "+AAC.canswim);
     }
 }

@@ -1,8 +1,9 @@
 package animalClass;
 
-public class Animal {
+public class Animal extends AnimalAbilityCount{
     private String fileName = "Animal";
     public void walk(){
+        AnimalAbilityCount.canwalk++;
         System.out.println(fileName + " :: I can walk");
     }
     
