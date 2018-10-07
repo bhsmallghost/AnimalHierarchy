@@ -2,15 +2,24 @@ package animalClass;
 
 public class Bird extends Animal {
     private String fileName = "Bird";
-    void fly() {
-        System.out.println(fileName + " :: I am flying");
+    
+    public void fly(boolean ability) {
+        if(ability)
+            System.out.println(fileName + " :: I can fly");
+        else
+            System.out.println(fileName + " :: I cannot fly");
     }
-    void sing() {
-        System.out.println(fileName + " :: I am singing");
+    public void sing() {
+        System.out.println(fileName + " :: I can sing");
+    }
+    public void swim(boolean ability) {
+        if(ability)
+            System.out.println(fileName + " :: I can swim");
+        else
+            System.out.println(fileName + " :: I cannot swim");
     }
 
     public Bird() {
-        fly();
-        sing();
+        //let the extends animal object to drive the actions and capabilities
     }
 }

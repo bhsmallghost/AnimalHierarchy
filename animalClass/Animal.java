@@ -2,11 +2,11 @@ package animalClass;
 
 class Animal {
     private String fileName = "Animal";
-    void walk(){
-        System.out.println(fileName + " :: I am walking");
+    public void walk(){
+        System.out.println(fileName + " :: I can walk");
     }
     
     public Animal() {
-        walk();
+        //let the extends animal object to drive the actions and capabilities
     }
 }

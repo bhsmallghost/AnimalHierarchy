@@ -9,5 +9,6 @@ public class Duck extends Bird {
 
     public Duck() {
         say();
+        swim(true);
     }
 }
