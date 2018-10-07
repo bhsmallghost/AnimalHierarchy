@@ -18,7 +18,7 @@ public class Solution {
         Rooster rooster = new Rooster();
         System.out.println("");*/
         
-        //AQ4
+        /*AQ4
         System.out.println("Dog....");
         Dog dog = new Dog();
         System.out.println("");
@@ -41,6 +41,22 @@ public class Solution {
         
         System.out.println("Parrot....");
         Parrot parrot2 = new Parrot();
+        System.out.println("");*/
+        
+        //BQ1
+        //Fish fish = new Fish();
+        
+        
+        /*BQ2
+        System.out.println("Shark....");
+        Shark shark = new Shark();
         System.out.println("");
+        
+        System.out.println("ClownFish....");
+        ClownFish clownfish = new ClownFish();
+        System.out.println("");*/
+        
+        //BQ3
+        Dolphins dolphins = new Dolphins();
     }
 }
