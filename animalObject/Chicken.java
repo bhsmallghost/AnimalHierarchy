@@ -1,14 +1,18 @@
 package animalObject;
 import animalClass.*;
+import animalSound.Sound;
 
-public class Chicken extends Bird {
+public class Chicken extends Bird implements Sound{
     private String fileName = "Chicken";
-    void say() {
+
+    public void say(String animalType) {
         System.out.println(fileName + " :: Cluck, cluck");
     }
-
+    
     public Chicken() {
-        say();
+        say(fileName);
+        walk();
+        sing();
         fly(false);
     }
 }
