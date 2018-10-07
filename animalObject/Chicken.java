@@ -6,7 +6,7 @@ public class Chicken extends Bird implements Sound{
     private String fileName = "Chicken";
 
     public void say(String animalType) {
-        System.out.println(fileName + " :: Cluck, cluck");
+        System.out.println(fileName + " say Cluck, cluck");
     }
     
     public Chicken() {

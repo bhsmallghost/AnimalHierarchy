@@ -1,6 +1,6 @@
 package animalClass;
 
-class Animal {
+public class Animal {
     private String fileName = "Animal";
     public void walk(){
         System.out.println(fileName + " :: I can walk");
