@@ -2,7 +2,7 @@ package animalClass;
 
 public class Animal {
     private String fileName = "Animal";
-    public void walk(){
+    public void walk(boolean ability){
         System.out.println(fileName + " :: I can walk");
     }
     

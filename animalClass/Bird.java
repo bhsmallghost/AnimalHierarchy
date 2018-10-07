@@ -9,8 +9,11 @@ public class Bird extends Animal {
         else
             System.out.println(fileName + " :: I cannot fly");
     }
-    public void sing() {
-        System.out.println(fileName + " :: I can sing");
+    public void sing(boolean ability) {
+        if(ability)
+            System.out.println(fileName + " :: I can sing");
+        else
+            System.out.println(fileName + " :: I cannot sing");
     }
     public void swim(boolean ability) {
         if(ability)
