@@ -11,9 +11,15 @@ AQ4 - Introduce Parrot "stayWith" variables across the Animal Objects that is in
 
 
 BQ1 - Classified Fish as an Animal Class.
-Design Fish to inherit from Bird due to the various behaviours exists in Bird
+- Design Fish to inherit from Bird due to the various behaviours exists in Bird
 
 BQ2 - Model Shark and ClownFish under Animal Object
-Debug relevant Bird sub-class.
+- Debug relevant Bird sub-class.
 
 BQ3 - Dolphins inherits directly from Bird's swim function
+
+
+DQ1 - Butterfly inherits directly from Bird to reduce overhead
+
+DQ2 - Introduce different "stage" in Butterfly to cater for metamorphosis
+- Caterpillar is a standalone class which has the function to alter the stage of Butterfly

@@ -61,6 +61,19 @@ public class Solution {
         
         
         //DQ1
+        //Butterfly butterfly = new Butterfly();
+        
+        //DQ2
+        System.out.println("Caterpillar....");
+        Caterpillar caterpillar = new Caterpillar();
+        System.out.println("");
+        
+        System.out.println("Metamorphosis....");
+        caterpillar.metamorphosis();
+        System.out.println("");
+        
+        System.out.println("Butterfly....");
         Butterfly butterfly = new Butterfly();
+        System.out.println("");
     }
 }
