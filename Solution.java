@@ -57,6 +57,10 @@ public class Solution {
         System.out.println("");*/
         
         //BQ3
-        Dolphins dolphins = new Dolphins();
+        //Dolphins dolphins = new Dolphins();
+        
+        
+        //DQ1
+        Butterfly butterfly = new Butterfly();
     }
 }
